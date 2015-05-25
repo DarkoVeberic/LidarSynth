@@ -26,4 +26,4 @@ to their references.
 
 ## Notes
 
-Needs boost c++ libraries and [ROOT](http://root.cern.ch).
+Needs [boost c++](http://www.boost.org) libraries and [ROOT](http://root.cern.ch).
