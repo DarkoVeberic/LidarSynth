@@ -21,3 +21,9 @@ required to add the following citation
   [Appl. Opt. **51** (2012) 139-147](http://dx.doi.org/10.1364/AO.51.000139).
 
 to their references.
+
+
+
+## Notes
+
+Needs boost c++ libraries and [ROOT](http://root.cern.ch).
