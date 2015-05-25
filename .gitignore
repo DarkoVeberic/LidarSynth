@@ -1,0 +1,5 @@
+*.P
+*.o
+*.so
+MaxLikeSynthesisMinuit2
+dead_time_simulation

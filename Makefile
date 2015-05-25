@@ -1,5 +1,8 @@
-#ROOTSYS := 
-ROOTBIN := $(ROOTSYS)/bin
+ifdef ROOTSYS
+  ROOTBIN := $(ROOTSYS)/bin
+else
+  ROOTBIN := /usr/bin
+endif
 
 CPPFLAGS := -I. $(shell $(ROOTBIN)/root-config --cflags)
 #CXXFLAGS := -Wall -Wextra -ggdb3 -O9 -march=native -mfpmath=sse -msse3 -ftree-vectorize -pipe -DNDEBUG -fPIC
