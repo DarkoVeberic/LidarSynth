@@ -387,8 +387,7 @@ TraceCountingVarianceDeadTime(const unsigned int nShots)
 int
 main(int argc, char* argv[])
 {
-  if (gRandom)
-    delete gRandom;
+  delete gRandom;
   gRandom = new TRandom3(0);
 
   gRandom->SetSeed(13);
